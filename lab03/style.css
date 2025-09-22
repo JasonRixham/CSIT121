@@ -1,0 +1,110 @@
+
+#whitetext {
+    color: white;
+}
+#blogage1 {
+    color: yellow;
+    font-size: 1.2em;
+}
+#blogage2 {
+    color:brown;
+    font-size: 1.2em;
+}
+#lab2color {
+    color:chartreuse
+}
+#lab3color {
+    color:blue
+}
+#rando1 {
+    background-color: purple;
+    color: white;
+}
+#rando2 {
+    background-color: orange;
+}
+#rando3 {
+    background-color:pink;
+    color: black
+}
+#rando4 {
+    background-color:gray;
+    color: black
+}
+h1 {
+    font-size: 2em;
+    color: red;
+}
+body {
+    font-family: Times, "Times New Roman", serif;
+    margin: 40px;
+    color: #333;
+    background-color: rgb(151, 151, 202);
+}
+header {
+    margin-bottom: 20px;
+}
+.Labs {
+      font-size: 1.6em;
+      font-weight: 600;
+      color: #000;
+    }
+.Pub {
+      font-size: 1em;
+      font-style: italic;
+      color: #000;
+}
+main {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+}
+article h2 {
+      font-size: 1.4em;
+      margin-bottom: 10px;
+}
+.list1 {
+     font-size: 1.2em;  
+     list-style-type: decimal;
+     margin-left: 20px;
+     margin-bottom: 20px;
+}
+.list2 {
+    font-size: 1.2em;  
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.list3 {
+    font-size: 1.2em;  
+    list-style-type: circle; 
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.list4 {
+    font-size: 1.2em;  
+    list-style-type: square;  
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+section {
+      margin-bottom: 5px;
+}
+footer {
+      padding-top: 5px;
+      font-size: 1em;
+      color: #000;
+      margin-top: 20px;
+}
+#link {
+    font-size: 2.0em;
+    color: rgb(75, 186, 214);
+    }    
+    :link {
+    color: red;
+    }
+    :visited {
+    color: purple;
+    }
+    :hover {
+    color: green;
+}    
