@@ -13,19 +13,19 @@
       position: fixed;
       top: 0;
       left: 0;
-      background-color: rgb(121, 11, 11);
       padding-top: 30px;
+      background-color: rgb(119, 1, 1);
     }
 
     .sidebar a {
       display: block;
-      color: white;
+      color: rgb(255, 255, 255);
       padding: 17px;
       text-decoration: none;
     }
 
     .sidebar a:hover {
-      background-color: #0073e6;
+      background-color: #014080;
     }
 
     .main-content {
