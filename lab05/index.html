@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lab05</title>
+
+ 
+  <link id="theme-style" rel="stylesheet" href="style5.css">
+  </head>
+<body>
+ <div class="top-menu">
+    <a href="https://jasonrixham.github.io/CSIT121/lab05/index.html">Home</a>
+    <a href="https://jasonrixham.github.io/CSIT121/lab05/source.html">Sources</a>
+    <a href="https://jasonrixham.github.io/CSIT121/lab05/about.html">About</a>
+    <a href="rixh48482@email.ccbcmd.edu">Contact</a>
+  </div>
+  <div class="side-menu">
+    <a href="https://jasonrixham.github.io/CSIT121/lab02/index.html">Lab02</a>
+    <a href="https://jasonrixham.github.io/CSIT121/lab03/index.html">Lab03</a>
+    <a href="https://jasonrixham.github.io/CSIT121/lab04/index.html">Lab04</a>
+  </div>
+  <div class="main-content">
+    <h1>Welcome to the CSS Switcher Page</h1>
+    <p>Choose a theme from the dropdown below:</p>
+  <article>
+    
+
+    <h3>Understanding that I have had</h3>
+    <ul>
+      <li>HTML is enjoyable and less complicated than other programming languages I have studied in my classes.</li>
+      <li>HTML is case-insensitive, meaning it doesn't matter if you write it as "html" or "HTML."</li>
+      <li>The creation of HTML was in 1993. Old. I feel old.</li>
+    </ul>
+
+    <h3>Some More Takeaways</h3>
+    <ul>
+      <li>Organization on a web page will make it much easier to create and troubleshoot.</li>
+      <li>I'm certainly glad I don't program HTML for a living; it would be a fun hobby.</li>
+      <li>Resources for HTML are abundant; it is probably one of the most established languages in computer history.</li>
+    </ul>
+
+    <h3>Stuff learned doing Lab 03</h3>
+    <ul>
+      <li>HTML is an boring document without CSS.</li>
+      <li>HTML so far, is very much easier to use than other languages I've learned.</li>
+      <li>CSS is quite a lot of fun, like painting a webpage.</li>
+    </ul>
+
+    <h3>Lab 04/Lab 05 knowledge gained</h3>
+    <ul>
+      <li>Working with HTML, CSS, and now JavaScript has been really fun; the creations you can make with this combination are amazing.</li>
+      <li>JavaScript seems much more complex compared to HTML or CSS.</li>
+      <li>Creating multiple CSS profiles for a single page can be more confusing than it seems.</li>
+    </ul>
+  </article>
+  
+  <section>
+    <h2>Lab02 Reflections/Blog</h2>
+    <p>Learning HTML was like gaining a superpower or casting magic; it allowed me to organize information, 
+      create links between pages, and present content on websites with confidence. The experience of learning this language 
+      introduced me to an exciting realm where creativity meets technology, giving me the ability to bring my ideas to life 
+      online.</p>
+   
+    <h2>Lab03 Reflections/Blog</h2>  
+    <p>When I started this assignment, I found HTML to be the foundational element of a webpage, 
+      similar to constructing a car frame. When I explored CSS, I realized my webpages could have pretty and 
+      vibrant colors and visually appealing aesthetics, much like the paint and interior of a car. HTML is the 
+      structure, while CSS adds the paint and glitter to bedazzle your webpage. This combination elevates a simple 
+      document into an engaging and attractive interface.</p>
+
+    <h2>Lab04/Lab05 Reflections/Blog</h2>  
+    <p>Lab04 was the first time i made menus and used some of the link capabilities of html, I also learned 
+      alot about what links,images and video, do work for HTML and how to format the page to fit the links. Lab05 got more 
+      into formating the web pages so mutliple css pages could work for the same basic instuctions. Their was quite a few chalenges 
+      getting it to work it was fun to do. </p>
+
+  </section> 
+    <h3 class="select">Theme</h3> 
+    <select class="selector" id="style-selector">
+      <option value="shared.css">Original</option>
+      <option value="style1.css">Theme 1</option>
+      <option value="style2.css">Theme 2</option>
+      <option value="style3.css">Theme 3</option>
+      <option value="style4.css">Theme 4</option>
+      <option value="style5.css">Theme 5</option>
+    </select>
+  </div>
+
+  <script>
+    const selector = document.getElementById('style-selector');
+    const linkTag = document.getElementById('theme-style');
+
+    selector.addEventListener('change', function () {
+      linkTag.setAttribute('href', this.value);
+    });
+  </script>
+</body>
+</html>
