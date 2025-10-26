@@ -45,7 +45,8 @@ body {
    
 .main-content {
    margin-left: 220px;
-   padding: 20px;  
+   padding: 20px; 
+   margin-right: 250px; 
 }
 .selector {
   position: fixed;
