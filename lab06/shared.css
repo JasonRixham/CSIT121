@@ -5,14 +5,14 @@ body {
   background: #f7fafc;
   font-family: 'Inter', system-ui, sans-serif;
   color:var(--text);
-  background-image: url('images/beer1.jpg');
-  color: #f4f4f4;
-}
+  background-image: url('images/beer1old.jpg');
+  color:white;
+}  
     
 .top-menu {
    overflow: hidden;
    color: rgb(255, 255, 255);
-   padding: 10px 20px;
+   padding: 1px 10px;
    position: fixed;
 }
 .top-menu a {
@@ -23,7 +23,11 @@ body {
    font-weight: 500;
   }
 .top-menu a:hover {
-   background-color: #707070;
+   text-shadow: 
+    -1px -1px 0 rgb(255, 0, 0),
+    1px -1px 0 rgb(255, 0, 0),
+    -1px 1px 0 rgb(255, 0, 0),
+    1px 1px 0 rgb(255, 0, 0);
 }
    
 .side-menu {
@@ -41,6 +45,11 @@ body {
    color: #000000;
    padding: 10px 20px;
    text-decoration: none;
+   text-shadow: 
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
    
 }
 .side-menu a:hover {
@@ -50,8 +59,13 @@ body {
 .main-content {
    margin-left: 220px;
    padding: 20px; 
-   margin-right: 650px; 
+   text-shadow: 
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
 }
+   
 .selector {
   position: fixed;
   bottom: 900px; 
