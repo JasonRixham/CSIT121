@@ -13,12 +13,14 @@ body {
    overflow: hidden;
    color: rgb(255, 255, 255);
    padding: 10px 20px;
+   position: fixed;
 }
 .top-menu a {
-   color: rgb(0, 0, 0);
+   color: rgb(255, 255, 255);
    padding: 14px 16px;
    text-decoration: none;
    display: inline-block;
+   font-weight: 500;
   }
 .top-menu a:hover {
    background-color: #707070;
@@ -32,21 +34,23 @@ body {
    left: 0;
    padding-top: 20px;
    background-image: url('images/beer2.jpg');
+   font-weight: 500;
 }
 .side-menu a {
    display: block;
-   color: #333;
+   color: #000000;
    padding: 10px 20px;
    text-decoration: none;
+   
 }
 .side-menu a:hover {
-   background-color: #ddd;
+   color: #970000;
 }
    
 .main-content {
    margin-left: 220px;
    padding: 20px; 
-   margin-right: 250px; 
+   margin-right: 350px; 
 }
 .selector {
   position: fixed;
