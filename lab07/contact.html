@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sample Form Page</title>
+  <link id="theme-style" rel="stylesheet" href="tier.css">
+ </head>
+<body>
+  <div class="side-menu">
+    <a href="https://jasonrixham.github.io/CSIT121/lab07/tierlist.html">Tiers</a>
+    <a href="https://jasonrixham.github.io/CSIT121/lab07/about.html">About</a>
+  </div>
+
+  <div class="form-container">
+    <h2>User Preferences Form</h2>
+    <form id="userForm">
+      <div class="form-group">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" />
+      </div>
+      <div class="form-group">
+        <label for="game">Enter Your Favorite Game:</label>
+        <input type="text" id="game" name="game" placeholder="Game" />
+      </div>
+       <div class="form-group">
+        <label>Gender:</label><br />
+        <label><input type="radio" name="gender" value="Male" /> Male</label>
+        <label><input type="radio" name="gender" value="Female" /> Female</label>
+        <label><input type="radio" name="gender" value="Other" /> Other</label>
+      </div>
+
+      
+      <div class="form-group">
+        <label>Favorite Tpye of Game:</label><br />
+        <label><input type="checkbox" name="interests" value="Board" /> Board</label>
+        <label><input type="checkbox" name="interests" value="Video" /> Video</label>
+        <label><input type="checkbox" name="interests" value="Sports" /> Sports</label>
+      </div>
+
+      
+      <div class="form-group">
+        <label for="country">Select Favorite Game Genre:</label>
+        <select id="country" name="country">
+          <option value="">--Choose--</option>
+          <option value="Role-Playing">Role-Playing</option>
+          <option value="Platformer">Platformer</option>
+          <option value="First Person Shooter">First Person Shooter</option>
+          <option value="Puzzle">Puzzle</option>
+        </select>
+      </div>
+
+      <div class="form-actions">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+
+    <div class="output" id="output"></div>
+  </div>
+
+  <script>
+    document.getElementById("userForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+
+      const form = e.target;
+      const name = form.name.value;
+      const game = form.game.value;
+      const gender = form.gender.value;
+      const country = form.country.value;
+
+      const interests = Array.from(form.querySelectorAll('input[name="interests"]:checked'))
+        .map(i => i.value)
+        .join(", ") || "None";
+
+      const output = `
+        <h3>Gamer Information:</h3>
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Favorite Game:</strong> ${game}</p>
+        <p><strong>Gender:</strong> ${gender}</p>
+        <p><strong>Favorite Game Type(s):</strong> ${interests}</p>
+        <p><strong>Favorite Genre:</strong> ${country}</p>
+      `;
+
+      document.getElementById("output").innerHTML = output;
+    });
+  </script>
+</body>
+</html>
