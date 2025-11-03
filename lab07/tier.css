@@ -34,8 +34,8 @@
     }
 
     .tier-s { color:red; background-color: #300201; }
-    .tier-a { color:yellow; background-color: #3b3d01; }
-    .tier-b { color:lightgreen; background-color: #344700; }
+    .tier-a { color:yellow; background-color: #696d02; }
+    .tier-b { color:lightgreen; background-color: #004700; }
     .tier-c { color:lightblue; background-color: #000641; }
     .tier-d { color:rgb(209, 41, 209); background-color: #210129; }
 
@@ -151,4 +151,9 @@
     button:hover {
       background: #110344;
      }
- 
+ h3 {
+  color: white;
+ }
+ .com {
+  color: white;
+ }

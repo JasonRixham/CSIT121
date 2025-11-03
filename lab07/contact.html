@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gamer Form Page</title>
   <link id="theme-style" rel="stylesheet" href="tier.css">
  </head>
@@ -11,33 +11,45 @@
     <a href="https://jasonrixham.github.io/CSIT121/lab07/tierlist.html">Tiers</a>
     <a href="https://jasonrixham.github.io/CSIT121/lab07/about.html">About</a>
   </div>
-
+<section>
+  <h3>Contact Info</h3>
+  <h3>Jason Rixham</h3>
+  <h3>Email - rixh48482@email.ccbcmd.edu</h3>
+</section> 
+ <h3>Leave a Comment</h3>
+ <div class="com">
+ <form action="#" method="post">
+    <label for="comment">Your Comment:</label>
+    <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br>
+    <input type="submit" value="Post Comment">
+  </form>
+  </div> 
   <div class="form-container">
     <h2>Gamer Preferences Form</h2>
     <form id="userForm">
       
       <div class="form-group">
         <label for="name">Your Name:</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name" />
+        <input type="text" id="name" name="name" placeholder="Enter your name">
       </div>
       
       <div class="form-group">
-        <label>Gamer?</label><br />
-        <label><input type="radio" name="gamer" value="Yes" /> Yes</label>
-        <label><input type="radio" name="gamer" value="No" /> No</label>
-        <label><input type="radio" name="gamer" value="Kinda..." /> Kinda?</label>
+        <label>Gamer?</label>
+        <label><input type="radio" name="gamer" value="Yes"> Yes</label>
+        <label><input type="radio" name="gamer" value="No"> No</label>
+        <label><input type="radio" name="gamer" value="Kinda..."> Kinda?</label>
       </div>
 
       <div class="form-group">
         <label for="game">Enter Your Favorite Game:</label>
-        <input type="text" id="game" name="game" placeholder="Game" />
+        <input type="text" id="game" name="game" placeholder="Game">
       </div>
        
       <div class="form-group">
-        <label>Favorite Tpye of Game:</label><br />
-        <label><input type="checkbox" name="interests" value="Board" /> Board</label>
-        <label><input type="checkbox" name="interests" value="Video" /> Video</label>
-        <label><input type="checkbox" name="interests" value="Sports" /> Sports</label>
+        <label>Favorite Tpye of Game:</label>
+        <label><input type="checkbox" name="interests" value="Board"> Board</label>
+        <label><input type="checkbox" name="interests" value="Video"> Video</label>
+        <label><input type="checkbox" name="interests" value="Sports"> Sports</label>
       </div>
 
       
