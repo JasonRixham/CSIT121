@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="https://jasonrixham.github.io/CSIT121/lab04/random.html">Random Stuff</a>
+    <a href="https://jasonrixham.github.io/CSIT121/lab04/charlie.html">Charlie</a>
+    <a href="https://jasonrixham.github.io/CSIT121/lab04/princess.html">Isabelle</a>
+    <a href="https://jasonrixham.github.io/CSIT121/lab04/lou.html">Louie</a>
+    <a href="https://jasonrixham.github.io/CSIT121/lab04/about.html">About WebPage</a>
+  </div>
+</div>
+
+
+<div class="main-content">
+    <h1>This is my CSIT 121 Lab 08 Project.</h1>
+    <h2> Please Pet The Cat To Open The Menu. </h2>
+      <h3>Enjoy.</h3>
+  </div>
+<div style="text-align: center;">
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">
+  <img src="https://jasonrixham.github.io/CSIT121/lab08/images/savege.png" alt="Menu" style="width:300px;height:300px;">
+</span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").classList.add("open");
+}
+
+function closeNav() {
+  document.getElementById("myNav").classList.remove("open");
+}
+</script>
+     
+</body>
+</html>

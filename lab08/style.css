@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5em;
+  color: rgb(255, 255, 255);
+  background-image: url(images/wh1.jpg);
+  background-repeat: no-repeat;
+}
+
+/* Overlay base */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.95);
+  transform: scale(0);
+  transform-origin: center;
+  transition: transform 0.5s ease;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* Show overlay */
+.overlay.open {
+  transform: scale(1);
+}
+
+/* Close button */
+.closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Overlay content */
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+}
+
+.overlay-content a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay-content a:hover {
+  color: #f1f1f1;
+}
+
+.main-content {
+  text-align: center;
+  padding: 20px;
+     }
+    
