@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>About</title>
- <style>
+  <title>Louie</title>
+  <link rel="stylesheet" href="share.css">
+  <style>
     body {
       margin: 0;
       display: block;
@@ -15,49 +16,49 @@
       background-image: url('images/wh2.jpg');
       background-repeat: no-repeat;
       margin-left: 30px;
-    }
-    img {
-      max-width: 140%;
-      height: auto;
-    }
-    .extra {
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    .about {
-      width: 400px;
-      top: 0;
-      left: 0;
-      font-family: Arial, Helvetica, sans-serif;
     } 
-    .about a {
-      display: block;
-      color: rgb(0, 0, 0);
-      padding: 12px;
-      text-decoration: none;
-    }
-    .about a:hover {
-      color: #ffffff;
-    }
   </style>
-  </head>  
-  <body>
-  <main>
-    <h1 class="extra">About this Webpage</h1>
-    <p>Website Design - Jason Rixham</p>
-    <p>Inspiration - Skeletor</p>
-  </main>
-   <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHJwaXJtMzhlamo3ampkZjJicTdxdTJuaGgyaG9nMXZremhmd3VtZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ddEl1Ey8A58OI/giphy.gif" alt="Displayed Image" style="display: block; margin: 0 auto;">
-    <h2>References and Sources</h2>
-  <nav class="about">  
+</head>
+<body>
+  <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
     <a href="https://giphy.com/explore/animated" target="_blank">Animated Gif Webpage</a>
     <a href="https://wallhaven.cc/" target="_blank">Background Images Webpage</a>
-    <a href="https://www.w3schools.com/howto/howto_js_sidenav.asp" target="_blank">Code for Menus</a>
+    <a href="https://www.w3schools.com/howto/howto_js_fullscreen_overlay.asp" target="_blank">Code for Overlay Menus</a>
+    <a href="https://www.flaticon.com/" target="_blank">PNG Icon Webpage</a>
     <a href="https://www.w3schools.com/css/css_background_image.asp" target="_blank">Code for Background images</a>
     <a href="https://www.w3schools.com/css/css_link.asp" target="_blank">Code for Hyperlink styling</a>
     <a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS Coding</a>
     <a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML Coding</a>
-    <a href="https://jasonrixham.github.io/CSIT121/lab04/index.html">Back to Main Page</a>
-  </nav>
+    <a href="https://jasonrixham.github.io/CSIT121/lab08/index.html">Back to Main Page</a>
+  </div>
+</div>
+  <main>
+   <h1 class="extra">About this Webpage</h1>
+    <p>Website Design - Jason Rixham</p>
+    <p>Inspiration - Gurren Lagann</p>
+  </main>
+
+  </main>
+   <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3BzbHhwcXZld3Zwd3hod3gweDM0bmw3aTVnanY2dmJva2Zocm91aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/12q7JyfK1UolW0/giphy.gif" alt="Displayed Image" style="display: block; margin: 0 auto;">
+  <h2>Click the Icon for References and Sources</h2>
   <p style="font-size: 0.7em;">This website was made for fun. All images remain property of their original owners.</p>
+ 
+ <div style="text-align: center;">
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">
+  <img src="https://jasonrixham.github.io/CSIT121/lab08/images/gl.png" alt="Menu" style="width:300px;height:250px;">
+</span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").classList.add("open");
+}
+
+function closeNav() {
+  document.getElementById("myNav").classList.remove("open");
+}
+</script>
 </body>
 </html>
