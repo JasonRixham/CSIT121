@@ -1,0 +1,75 @@
+body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #000000;
+      background-image: url('https://jasonrixham.github.io/CSIT121/lab10/images/bd.png');
+    }
+    header {
+      background: #050383;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      margin-top: 0.5rem;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 0.5rem;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color: #cf0000;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      background: #fff;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      border-radius: 6px;
+      border: 1px solid #ddd;
+    }
+    h2 {
+      margin-top: 0;
+      color: #2c3e50;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    footer {
+      text-align: center;
+      padding: 0.5rem;
+      margin-top: 2rem;
+     }
+    img {
+      max-width: 140%;
+      height: auto;
+    }
+    .extra {
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+    }
+    .about {
+      width: 400px;
+      top: 0;
+      left: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 25px;
+    } 
+    .about a {
+      display: block;
+      color: rgb(0, 0, 0);
+      padding: 12px;
+      text-decoration: none;
+    }
+    .about a:hover {
+      color: #ffffff;
+    }
+    
