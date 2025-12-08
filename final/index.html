@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final Project</title>
+ <link id="theme-style" rel="stylesheet" href="style.css">
+ </head>
+<body class="mainpage">
+
+  <header>
+    <button onclick="openMenu()" class="menu-btn">
+    <img id="menuIcon" src="cute.png" alt="Menu" class="menu-icon">
+  </button>
+  <h1>My Portfolio</h1>
+    <p>Welcome to my personal portfolio page</p>
+  </header>
+
+  <!-- Overlay menu -->
+  <div id="myOverlay" class="overlay">
+    <span class="closebtn" onclick="closeMenu()">&times;</span>
+    <div class="overlay-content">
+      <a href="#about" onclick="closeMenu()">About Me</a>
+      <a href="#labs" onclick="closeMenu()">Projects</a>
+      <a href="#contact" onclick="closeMenu()">Contact</a>
+      <a href="https://example.com" target="_blank" onclick="closeMenu()">External Link</a>
+    </div>
+  </div>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Maximum Over Sarcastic Dude
+    </p>
+  </section>
+  
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>
+      Add your email, social media links, or a simple message about how
+      people can reach you.
+    </p>
+    <ul>
+      <li><a href="mailto:you@example.com">Email Me</a></li>
+      <li><a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Jason Rixham</p>
+  </footer>
+
+  <script>
+  // List of PNG files to use
+  const icons = ["cute.png", "happy.png", "napping.png", "savage.png", "pet.png", "cat.png"];
+
+  function openMenu() {
+    document.getElementById("myOverlay").style.width = "100%";
+    changeIcon(); // change icon each time menu is opened
+  }
+
+  function closeMenu() {
+    document.getElementById("myOverlay").style.width = "0";
+    changeIcon(); // optionally also change when closing
+  }
+
+  function changeIcon() {
+    const menuIcon = document.getElementById("menuIcon");
+    const randomIndex = Math.floor(Math.random() * icons.length);
+    menuIcon.src = icons[randomIndex];
+  }
+</script>
+
+</body>
+</html>

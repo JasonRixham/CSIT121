@@ -1,0 +1,172 @@
+     body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+      position: relative;
+    }
+    header button {
+      position: absolute;
+      left: 1rem;
+      top: 1rem;
+      background: none;
+      border: none;
+      color: #fff;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+    .mainpage header {
+       background-color: rgb(146, 144, 238);
+       color: rgb(0, 0, 0);
+    }
+    .mainpage footer {
+      background-color: aqua;
+      color: black;
+    }
+    .labpage header {
+       background-color: rgb(167, 168, 238);
+       color: rgb(0, 0, 0);
+    }
+    .labpage footer {
+      background-color: rgb(55, 0, 255);
+      color: black;
+    }
+    
+    section {
+      max-width: 800px;
+      margin: 1.5rem auto;
+      padding: 1.5rem;
+      background: #fff;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    h2 { margin-top: 0; }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #444;
+      color: #fff;
+      margin-top: 2rem;
+    }
+
+    /* Overlay menu styles */
+    .overlay {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: rgba(0,0,0,0.9);
+      overflow-x: hidden;
+      transition: 0.3s;
+      z-index: 999;
+    }
+    .overlay-content {
+      position: relative;
+      top: 25%;
+      width: 100%;
+      text-align: center;
+    }
+    .overlay a {
+      display: block;
+      padding: 1rem;
+      font-size: 1.5rem;
+      color: #fff;
+      text-decoration: none;
+      transition: 0.2s;
+    }
+    .overlay a:hover {
+      background: rgba(255,255,255,0.1);
+    }
+    .overlay .closebtn {
+      position: absolute;
+      top: 1rem;
+      right: 2rem;
+      font-size: 2rem;
+      color: #fff;
+      cursor: pointer;
+    }
+    /* Responsive tweaks */
+    @media (max-width: 600px) {
+      header {
+      padding: 1rem;
+      }
+    nav {
+      padding: 0.5rem;
+      }
+    nav a {
+      display: block;
+      margin: 0.5rem auto;
+      width: 90%;
+      }
+    section {
+      margin: 1rem;
+      padding: 1rem;
+      }
+    }
+    .menu-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0.5rem;
+    }
+    .menu-icon {
+      width: 64px;
+      height: 64px;
+    }
+    .overlay {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: rgba(0,0,0,0.9);
+      overflow-x: hidden;
+      transition: 0.3s;
+      z-index: 999;
+    }
+    .overlay-content {
+      position: relative;
+      top: 25%;
+      width: 100%;
+      text-align: center;
+    }
+    .overlay a {
+      display: block;
+      padding: 1rem;
+      font-size: 1.5rem;
+      color: #fff;
+      text-decoration: none;
+    }
+    .overlay .closebtn {
+      position: absolute;
+      top: 1rem;
+      right: 2rem;
+      font-size: 2rem;
+      color: #fff;
+      cursor: pointer;
+    }
+    .labsleft {
+      display: grid;
+      grid-template-columns: 4.5fr 1fr; /* left column smaller, right column larger */
+      gap: 20px;
+      align-items: start;
+      background-color: rgb(120, 120, 128);
+    }
+    .labsright {
+      display: grid;
+      grid-template-columns: 1fr 4.5fr; /* left column smaller, right column larger */
+      gap: 20px;
+      align-items: start;
+      background-color: rgb(153, 137, 137);
+    }
+    a img {
+      width: 100px;   /* adjust width */
+      height: auto;   /* keep aspect ratio */
+    }
