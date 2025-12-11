@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<consoles>
+    <console id="PS2">
+        <consolename>Playstation 2</consolename>
+        <manu>Sony</manu>
+        <year>2000</year>
+        <type>CD/DVDs</type>
+        <ranking>1</ranking>
+        <special>Best selling video game colsole of all time, to date. Nearly 2000 games released, and launched some of the best 
+        games ever made. I lost more hours of my life then I can count to this game console. Time well spent.</special>
+     </console>
+    <console id="N64">
+        <consolename>Nintendo 64</consolename>
+        <manu>Nintendo</manu>
+        <year>1996</year>
+        <type>Cartridge</type>
+        <ranking>2</ranking>
+        <special>Never was there a gaming system that was more fun than the N64. Four players could make and break friendships through 
+        either playing Super Smash Brothers or 007 Golden Eye, among others. The bonus was that you were right next to your friends 
+        playing, so you could duke it out immediately to assert physical and digital dominance after winning. The good old days.</special>
+     </console>
+     <console id="SNES">
+        <consolename>Super Nintendo Entertainment System</consolename>
+        <manu>Nintendo</manu>
+        <year>1991</year>
+        <type>Cartridge</type>
+        <ranking>3</ranking>
+        <special>This console arrived at a special time in my life, when I was old enough to recognize that I was a total nerd, yet young enough 
+        not to realize that being uncool was actually cool. The SNES made being young and socially awkward seem less daunting; the games were 
+        outstanding and original, and you could easily get wrapped up in them for over 50 hours if you dared. Such fond memories.</special>
+     </console>
+    <console id="NES">
+        <consolename>Nintendo Entertainment System</consolename>
+        <manu>Nintendo</manu>
+        <year>1985</year>
+        <type>Cartridge</type>
+        <ranking>4</ranking>
+        <special>As an "old man" now, I feel the need to share my experiences with the original NES system while sitting in a rocking chair and 
+        sipping a Jolt Cola. This is where legends in the gaming community began. Mario transformed into Super Mario, Link saved Zelda for the 
+        first time, and we discovered what a Megaman was all about. Plus, who could forget shooting digital birds with a laser gun? Absolutely legendary. </special>
+     </console>
+    <console id="NS">
+        <consolename>Nintendo Switch</consolename>
+        <manu>Nintendo</manu>
+        <year>2017</year>
+        <type>SD Card/Digital Download</type>
+        <ranking>5</ranking>
+        <special>Nintendo made a new type of gaming system that works as both a home console and a handheld device. Now, you can play whenever and wherever 
+        you want. Good move by Nintendo. I spent about three months playing "Breath of the Wild". Worth it.</special>
+     </console>
+    <console id="PS4">
+        <consolename>Playstation 4</consolename>
+        <manu>Sony</manu>
+        <year>2013</year>
+        <type>Blu-ray/DVD/Digital Download</type>
+        <ranking>6</ranking>
+        <special>OMG... Another PlayStation. Sony gives you the privilege of re-buying all your PS2 and PS3 games on the "new" PS4, yay! Additionally, 
+        many excellent games received remakes, with Shadow of the Colossus and God of War notable examples.</special>
+     </console>
+    <console id="GBO">
+        <consolename>Gameboy</consolename>
+        <manu>Nintendo</manu>
+        <year>1989</year>
+        <type>Cartridge</type>
+        <ranking>7</ranking>
+        <special>In 1989, when I was young, Santa gave me one of these. I believe this single-handedly started my love for video games.</special>
+     </console>
+    <console id="PS">
+        <consolename>Playstation</consolename>
+        <manu>Sony</manu>
+        <year>1994</year>
+        <type>Cd's</type>
+        <ranking>8</ranking>
+        <special>Sony's breakout video game console, the PlayStation, marked their shift from making Walkman's to entering the gaming business. The 
+        iconic loading screen sound of the PlayStation is permanently burned into my brain. For me, the real reason to own one was the Final 
+        Fantasy franchise, but there were also titles like Gran Turismo and Twisted Metal.</special>
+     </console>
+    <console id="GC">
+        <consolename>Nintento GameCube</consolename>
+        <manu>Nintendo</manu>
+        <year>2001</year>
+        <type>MiniDVD</type>
+        <ranking>9</ranking>
+        <special>Its a Cube. It played little DVDs. This had the worst controller ever made. Is it special? Yes. A wooden knife is special too, but it can't 
+        cut a damn thing. Special is not always good. Epic fail in my book.</special>
+     </console>
+     <console id="XB360">
+        <consolename>Xbox 360</consolename>
+        <manu>Microsoft</manu>
+        <year>2005</year>
+        <type>CD/DVD/Digital Download</type>
+        <ranking>10</ranking>
+        <special>Once again Microsoft continues to keep the dream alive with its enhanced version of the Xbox. And once again, online 
+        play and Halo are the two pillars that supported their system. And it worked: millions of Mountain Dew-addicted gamers screaming 
+        into Doritos-dusted headsets, making fun of your game skills and your mama online, creating the first truly toxic online 
+        experience for casual gamers. Glorious.</special>
+     </console>
+    <console id="SG">
+        <consolename>Sega Genesis</consolename>
+        <manu>SEGA</manu>
+        <year>1989</year>
+        <type>Cartridge</type>
+        <ranking>11</ranking>
+        <special>There were brief moments when the SEGA Genesis surpassed Nintendo. SEGA had several advantages when it launched, 
+        one of which was Sonic the Hedgehog. Additionally, SEGA embraced more mature content, allowing games like Mortal Kombat on 
+        the Genesis to feature blood and gore, while the SNES refrained from this due to strict content policies at the time. This 
+        gave SEGA a momentary edge over Nintendo. However, that changed with the release of iconic titles such as Final Fantasy VI, 
+        Chrono Trigger, Gradius III, Contra III, Mega Man X, and Secret of Mana, which caused many players to shift their focus back 
+        to Nintendo. Sad Sonic noises.</special>
+     </console>
+    <console id="XBOX">
+        <consolename>Xbox</consolename>
+        <manu>Microsoft</manu>
+        <year>2001</year>
+        <type>CD/DVD/Digial Download</type>
+        <ranking>12</ranking>
+        <special>Microsoft's breakout video game system was a success, unlike the Zune. Ewww Zune. Years before Microsoft became 
+        an evil organization and required all users to have a Microsoft account to use Windows, it revolutionized the gaming industry 
+        with two major innovations: Xbox Live and Halo. Online gaming and freaking Halo.</special>
+     </console>
+    <console id="GBA">
+        <consolename>GameBoy Advanced</consolename>
+        <manu>Nintendo</manu>
+        <year>2001</year>
+        <type>Cartridge</type>
+        <ranking>13</ranking>
+        <special>This was the power equivalent of the SNES at the time, but in handheld form. This was the perfect Game Boy 
+        for gamers to get their Pokémon addiction established before completely overdosing on it when the 3DS came out. Pika pika.  </special>
+     </console>
+    <console id="GBDS">
+        <consolename>Nintendo DS</consolename>
+        <manu>Nintendo</manu>
+        <year>2004</year>
+        <type>Cartridge</type>
+        <ranking>14</ranking>
+        <special>The Nintendo DS was successful because it introduced touchscreen controls and enabled wireless online 
+        gaming, reaching a wide audience. This helped create a casual gaming market that attracted many non-gamers and set a 
+        standard for touchscreen controls in future portable gaming devices. The DS also brought more female gamers into the 
+        market. In 2006, Nintendo reported that 44% of DS owners were female, and many owners of the game Nintendogs were also 
+        female. Absolute win.</special>
+     </console>
+    <console id="PS3">
+        <consolename>Playstaion 3</consolename>
+        <manu>Sony</manu>
+        <year>2006</year>
+        <type>DVD/Blu-Ray/Digital Download</type>
+        <ranking>15</ranking>
+        <special>The console had a ridiculous lineup of games, including several exclusives like Metal Gear, Uncharted, 
+        and Infamous. However, the lack of backwards compatibility frustrated many loyal gamers who had PS2s, but eventually, 
+        most people got over it.</special>
+     </console>
+    <console id="Wii">
+        <consolename>Nintendo Wii</consolename>
+        <manu>Nintendo</manu>
+        <year>2006</year>
+        <type>DVD/Digial Download</type>
+        <ranking>16</ranking>
+        <special>The system prioritized a simple user interface over high-definition and surround sound. The biggest change 
+        was not just in the games, but in how we played them. The aim was to create something easy for anyone to use, with a 
+        new input method; the hope was to reach a broader audience and bring more people into gaming.</special>
+     </console>
+    <console id="GB3DS">
+        <consolename>GameBoy 3DS</consolename>
+        <manu>Nintendo</manu>
+        <year>2011</year>
+        <type>Cartridge/SD Cards/Digial Downloads</type>
+        <ranking>17</ranking>
+        <special>It was a foldable hand-held gaming system that was simply fun. While it didn't boast high-end graphics or 
+        hardware, it provided an interactive gaming experience with two screens and a stylus.</special>
+     </console>
+    <console id="SDC">
+        <consolename>Sega Dreamcast</consolename>
+        <manu>SEGA</manu>
+        <year>1999</year>
+        <type>CD/GD-ROM/Digital Download</type>
+        <ranking>18</ranking>
+        <special>The SEGA Dreamcast was the first console in the sixth generation of video game 
+        systems, which included the PlayStation 2, GameCube, and Xbox. It launched in 1998, over two years before 
+        the PS2 and three years before the GameCube and Xbox. 3 years and it was a dead console.. a shame.</special>
+     </console>
+     <console id="NeoGeo">
+        <consolename>NeoGeo</consolename>
+        <manu>SNK</manu>
+        <year>1990</year>
+        <type>Cartridge</type>
+        <ranking>19</ranking>
+        <special>SNK was a well-known company that made arcade games and published games for the
+         NES in the late 1980s. In 1990, the company decided to use its arcade skills to create games for home use. 
+         King of Fighters and Metal Slug 3 are some of their best games.</special>
+     </console>
+    <console id="A2600">
+        <consolename>Atari 2600</consolename>
+        <manu>Atari Inc.</manu>
+        <year>1977</year>
+        <type>Cartridge</type>
+        <ranking>20</ranking>
+        <special>This is the console that served as the foundation for the video 
+        industry. Atari 2600 was undeniably a phenomenon during its rise, heralding the advent of 
+        a new entertainment medium.</special>
+     </console>
+</consoles>

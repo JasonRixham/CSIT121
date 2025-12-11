@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Token XML Page</title>
+  <link id="theme-style" rel="stylesheet" href="style.css">
+</head>
+<body class="xmlpage">
+  <header>
+    <button onclick="openMenu()" class="menu-btn">
+      <img id="menuIcon" src="cute.png" alt="Menu icon" class="menu-icon">
+    </button>
+    <h1>Token XML File Page</h1>
+    <p>XML stuff</p>
+    <p>Cat icon, top left, will take you elsewhere.</p>
+  </header>
+
+  <!-- Overlay menu -->
+  <div id="myOverlay" class="overlay">
+    <span class="closebtn" onclick="closeMenu()">&times;</span>
+    <div class="overlay-content">
+      <a href="index.html" onclick="closeMenu()">Main Page</a>
+      <a href="xml.xml" onclick="closeMenu()">Token XML page</a>
+      <a href="about.html" onclick="closeMenu()">About</a>
+    </div>
+  </div>
+
+  <div class="center">
+    <button type="button" class="button" onclick="loadXMLDoc()">Gaming Console Rankings</button>
+  </div>
+
+  <br><br>
+  <table id="id"></table>
+    
+  <footer>
+    <p>&copy; 2025 Jason Rixham</p>
+  </footer>
+  <script>
+  // List of PNG files to use
+  const icons = ["cute.png", "happy.png", "napping.png", "savege.png", "pet.png", "cat.png"];
+
+  function openMenu() {
+    document.getElementById("myOverlay").style.width = "100%";
+    changeIcon(); // change icon each time menu is opened
+  }
+
+  function closeMenu() {
+    document.getElementById("myOverlay").style.width = "0";
+    changeIcon(); // optionally also change when closing
+  }
+
+  function changeIcon() {
+    const menuIcon = document.getElementById("menuIcon");
+    const randomIndex = Math.floor(Math.random() * icons.length);
+    menuIcon.src = icons[randomIndex];
+  }
+</script>
+
+
+  <script>
+        function loadXMLDoc() {
+            let xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function () {
+
+                if (this.readyState == 4 && this.status == 200) {
+                    empDetails(this);
+                }
+            };
+
+            xmlhttp.open("GET", "console.xml", true);
+            xmlhttp.send();
+        }
+
+        function empDetails(xml) {
+            let i;
+            let xmlDoc = xml.responseXML;
+            let table =
+                `<tr><th>Console Name</th><th>Manufacturer</th>
+                    <th>Year Released</th><th>Game Medium</th>
+                    <th>Overall Ranking</th><th>Why its Special</th>
+                </tr>`;
+            let x = xmlDoc.getElementsByTagName("console");
+
+            // Start to fetch the data by using TagName 
+            for (i = 0; i < x.length; i++) {
+                table += "<tr><td>" +
+                    x[i].getElementsByTagName("consolename")[0]
+                        .childNodes[0].nodeValue + "</td><td>" +
+                    x[i].getElementsByTagName("manu")[0]
+                        .childNodes[0].nodeValue + "</td><td>" +
+                    x[i].getElementsByTagName("year")[0]
+                        .childNodes[0].nodeValue + "</td><td>" +
+                    x[i].getElementsByTagName("type")[0]
+                        .childNodes[0].nodeValue + "</td><td>" +
+                    x[i].getElementsByTagName("ranking")[0]
+                        .childNodes[0].nodeValue + "</td><td>" +
+                    x[i].getElementsByTagName("special")[0]
+                        .childNodes[0].nodeValue + "</td></tr>";
+                        
+            }
+
+            // Print the xml data in table form
+            document.getElementById("id").innerHTML = table;
+        }
+    </script>
+</body>
+</html>
