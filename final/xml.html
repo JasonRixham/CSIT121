@@ -10,15 +10,14 @@
 <body class="xmlpage">
   <header>
     <button onclick="openMenu()" class="menu-btn">
-      <img id="menuIcon" src="cute.png" alt="Menu icon" class="menu-icon">
+      <img id="menuIcon" src="images/cute.png" alt="Menu icon" class="menu-icon">
     </button>
     <h1>Token XML File Page</h1>
     <p>XML stuff</p>
     <p>Cat icon, top left, will take you elsewhere.</p>
   </header>
 
-  <!-- Overlay menu -->
-  <div id="myOverlay" class="overlay">
+   <div id="myOverlay" class="overlay">
     <span class="closebtn" onclick="closeMenu()">&times;</span>
     <div class="overlay-content">
       <a href="https://jasonrixham.github.io/CSIT121/final/index.html" onclick="closeMenu()">Main Page</a>
@@ -37,29 +36,7 @@
   <footer>
     <p>&copy; 2025 Jason Rixham</p>
   </footer>
-  <script>
-  // List of PNG files to use
-  const icons = ["images/cute.png", "images/happy.png", "images/napping.png", "images/savege.png", "images/pet.png", "images/cat.png"];
-
-  function openMenu() {
-    document.getElementById("myOverlay").style.width = "100%";
-    changeIcon(); // change icon each time menu is opened
-  }
-
-  function closeMenu() {
-    document.getElementById("myOverlay").style.width = "0";
-    changeIcon(); // optionally also change when closing
-  }
-
-  function changeIcon() {
-    const menuIcon = document.getElementById("menuIcon");
-    const randomIndex = Math.floor(Math.random() * icons.length);
-    menuIcon.src = icons[randomIndex];
-  }
-</script>
-
-
-  <script>
+    <script>
         function loadXMLDoc() {
             let xmlhttp = new XMLHttpRequest();
             xmlhttp.onreadystatechange = function () {
@@ -101,9 +78,29 @@
                         
             }
 
-            // Print the xml data in table form
             document.getElementById("id").innerHTML = table;
         }
     </script>
+    <script>
+  const icons = ["images/cute.png", "images/happy.png", "images/napping.png", "images/savege.png", "images/pet.png", "images/cat.png"];
+
+  function openMenu() {
+    document.getElementById("myOverlay").style.width = "100%";
+    changeIcon(); // change icon each time menu is opened
+  }
+
+  function closeMenu() {
+    document.getElementById("myOverlay").style.width = "0";
+    changeIcon(); // optionally also change when closing
+  }
+
+  function changeIcon() {
+    const menuIcon = document.getElementById("menuIcon");
+    const randomIndex = Math.floor(Math.random() * icons.length);
+    menuIcon.src = icons[randomIndex];
+  }
+</script>
+
+
 </body>
 </html>
