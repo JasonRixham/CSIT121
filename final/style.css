@@ -25,7 +25,7 @@
       background-image: url('https://jasonrixham.github.io/CSIT121/final/images/wp7.jpg');
     }
     .mainpage header {
-       background-color: rgb(146, 144, 238);
+       background-color: rgb(241, 173, 118);
        color: rgb(0, 0, 0);
        font-weight: bold;
     }
@@ -33,15 +33,15 @@
       background-image: url('https://jasonrixham.github.io/CSIT121/final/images/wpa.png');
     }
     .mainpage footer {
-      background-color: rgb(167, 153, 207);
+      background-color: rgb(207, 179, 153);
       color: black;
     }
     .labpage header {
-       background-color: rgb(117, 118, 158);
+       background-color: rgb(158, 117, 117);
        color: rgb(0, 0, 0);
     }
     .labpage footer {
-      background-color: rgb(151, 149, 161);
+      background-color: rgb(148, 116, 116);
       color: black;
     }
     body.labpage {
@@ -49,6 +49,10 @@
     }
     .aboutpage header {
        background-color: rgb(111, 110, 158);
+       color: rgb(0, 0, 0);
+    }
+    .aboutpage footer {
+      background-color: rgb(111, 110, 158);
        color: rgb(0, 0, 0);
     }
     .xmlpage header {
@@ -181,13 +185,13 @@
       color: black; 
     }
     #contact {
-      background-color: #bba9d1;
+      background-color: #ca9f7c;
       max-width: 1200px;
       font-weight: bold;
     }
     #contact a {
       display: block;
-      color: rgb(36, 0, 241);
+      color: rgb(0, 16, 241);
       padding: 2px;
       text-decoration: none;
       font-size: 26px;
