@@ -160,12 +160,20 @@
       background-color: rgb(153, 137, 137);
       max-width: 1200px;
     }
+    .labtour {
+      color: #000000;
+      padding: 1rem;
+      text-align: center;
+      position: relative;
+      background-color: #b95050;
+      max-width: 300px;
+    }
     a img {
       width: 100px;   
       height: auto;   
     }
     .about {
-      width: 400px;
+      width: 500px;
       top: 0;
       left: 0;
       font-family: Arial, Helvetica, sans-serif;
