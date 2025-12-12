@@ -39,33 +39,34 @@
         sipping a Jolt Cola. This is where legends in the gaming community began. Mario transformed into Super Mario, Link saved Zelda for the 
         first time, and we discovered what a Megaman was all about. Plus, who could forget shooting digital birds with a laser gun? Absolutely legendary. </special>
      </console>
-    <console id="NS">
-        <consolename>Nintendo Switch</consolename>
-        <manu>Nintendo</manu>
-        <year>2017</year>
-        <type>SD Card/Digital Download</type>
-        <ranking>5</ranking>
-        <special>Nintendo made a new type of gaming system that works as both a home console and a handheld device. Now, you can play whenever and wherever 
-        you want. Good move by Nintendo. I spent about three months playing "Breath of the Wild". Worth it.</special>
-     </console>
-    <console id="PS4">
-        <consolename>Playstation 4</consolename>
-        <manu>Sony</manu>
-        <year>2013</year>
-        <type>Blu-ray/DVD/Digital Download</type>
-        <ranking>6</ranking>
-        <special>OMG... Another PlayStation. Sony gives you the privilege of re-buying all your PS2 and PS3 games on the "new" PS4, yay! Additionally, 
-        many excellent games received remakes, with Shadow of the Colossus and God of War notable examples.</special>
-     </console>
     <console id="GBO">
         <consolename>Gameboy</consolename>
         <manu>Nintendo</manu>
         <year>1989</year>
         <type>Cartridge</type>
-        <ranking>7</ranking>
+        <ranking>5</ranking>
         <special>In 1989, when I was young, Santa gave me one of these. I believe this single-handedly started my love for video games.</special>
      </console>
-    <console id="PS">
+    <console id="PS3">
+        <consolename>Playstaion 3</consolename>
+        <manu>Sony</manu>
+        <year>2006</year>
+        <type>DVD/Blu-Ray/Digital Download</type>
+        <ranking>6</ranking>
+        <special>The console had a ridiculous lineup of games, including several exclusives like Metal Gear, Uncharted, 
+        and Infamous. However, the lack of backwards compatibility frustrated many loyal gamers who had PS2s, but eventually, 
+        most people got over it. Not me, BOOOOO Sony.</special>
+     </console>
+    <console id="NS">
+        <consolename>Nintendo Switch</consolename>
+        <manu>Nintendo</manu>
+        <year>2017</year>
+        <type>SD Card/Digital Download</type>
+        <ranking>7</ranking>
+        <special>Nintendo made a new type of gaming system that works as both a home console and a handheld device. Now, you can play whenever and wherever 
+        you want. Good move by Nintendo. I spent about three months playing "Breath of the Wild". Worth it.</special>
+     </console>
+     <console id="PS">
         <consolename>Playstation</consolename>
         <manu>Sony</manu>
         <year>1994</year>
@@ -75,24 +76,34 @@
         iconic loading screen sound of the PlayStation is permanently burned into my brain. For me, the real reason to own one was the Final 
         Fantasy franchise, but there were also titles like Gran Turismo and Twisted Metal.</special>
      </console>
-    <console id="GC">
-        <consolename>Nintento GameCube</consolename>
-        <manu>Nintendo</manu>
-        <year>2001</year>
-        <type>MiniDVD</type>
+    <console id="A2600">
+        <consolename>Atari 2600</consolename>
+        <manu>Atari Inc.</manu>
+        <year>1977</year>
+        <type>Cartridge</type>
         <ranking>9</ranking>
-        <special>Its a Cube. It played little DVDs. This had the worst controller ever made. Is it special? Yes. A wooden knife is special too, but it can't 
-        cut a damn thing. Special is not always good. Epic fail in my book.</special>
+        <special>This is the console that served as the foundation for the video industry. Atari 2600 was undeniably a phenomenon during its rise, heralding the advent of 
+        a new entertainment medium. If you haven't played Adventure by Warren Robinett, at least watch a video of it, that was a cool game for its time.</special>
+     </console>
+     <console id="XBOX">
+        <consolename>Xbox</consolename>
+        <manu>Microsoft</manu>
+        <year>2001</year>
+        <type>CD/DVD/Digial Download</type>
+        <ranking>10</ranking>
+        <special>Microsoft's breakout video game system was a success, unlike the Zune. Ewww Zune. Years before Microsoft became 
+        an evil organization and required all users to have a Microsoft account to use Windows, it revolutionized the gaming industry 
+        with two major innovations: Xbox Live and Halo. Online gaming and freaking Halo.</special>
      </console>
      <console id="XB360">
         <consolename>Xbox 360</consolename>
         <manu>Microsoft</manu>
         <year>2005</year>
         <type>CD/DVD/Digital Download</type>
-        <ranking>10</ranking>
+        <ranking>11</ranking>
         <special>Once again Microsoft continues to keep the dream alive with its enhanced version of the Xbox. And once again, online 
         play and Halo are the two pillars that supported their system. And it worked: millions of Mountain Dew-addicted gamers screaming 
-        into Doritos-dusted headsets, making fun of your game skills and your mama online, creating the first truly toxic online 
+        into Doritos-crusted headsets, making fun of your gaming skills and your mama online, creating the first truly toxic online gaming 
         experience for casual gamers. Glorious.</special>
      </console>
     <console id="SG">
@@ -100,7 +111,7 @@
         <manu>SEGA</manu>
         <year>1989</year>
         <type>Cartridge</type>
-        <ranking>11</ranking>
+        <ranking>12</ranking>
         <special>There were brief moments when the SEGA Genesis surpassed Nintendo. SEGA had several advantages when it launched, 
         one of which was Sonic the Hedgehog. Additionally, SEGA embraced more mature content, allowing games like Mortal Kombat on 
         the Genesis to feature blood and gore, while the SNES refrained from this due to strict content policies at the time. This 
@@ -108,23 +119,13 @@
         Chrono Trigger, Gradius III, Contra III, Mega Man X, and Secret of Mana, which caused many players to shift their focus back 
         to Nintendo. Sad Sonic noises.</special>
      </console>
-    <console id="XBOX">
-        <consolename>Xbox</consolename>
-        <manu>Microsoft</manu>
-        <year>2001</year>
-        <type>CD/DVD/Digial Download</type>
-        <ranking>12</ranking>
-        <special>Microsoft's breakout video game system was a success, unlike the Zune. Ewww Zune. Years before Microsoft became 
-        an evil organization and required all users to have a Microsoft account to use Windows, it revolutionized the gaming industry 
-        with two major innovations: Xbox Live and Halo. Online gaming and freaking Halo.</special>
-     </console>
-    <console id="GBA">
+     <console id="GBA">
         <consolename>GameBoy Advanced</consolename>
         <manu>Nintendo</manu>
         <year>2001</year>
         <type>Cartridge</type>
         <ranking>13</ranking>
-        <special>This was the power equivalent of the SNES at the time, but in handheld form. This was the perfect Game Boy 
+        <special>This was the power equivalent of the SNES at the time, but in handheld form. This was the perfect GameBoy 
         for gamers to get their Pokémon addiction established before completely overdosing on it when the 3DS came out. Pika pika.  </special>
      </console>
     <console id="GBDS">
@@ -139,17 +140,17 @@
         market. In 2006, Nintendo reported that 44% of DS owners were female, and many owners of the game Nintendogs were also 
         female. Absolute win.</special>
      </console>
-    <console id="PS3">
-        <consolename>Playstaion 3</consolename>
+    <console id="PS4">
+        <consolename>Playstation 4</consolename>
         <manu>Sony</manu>
-        <year>2006</year>
-        <type>DVD/Blu-Ray/Digital Download</type>
+        <year>2013</year>
+        <type>Blu-ray/DVD/Digital Download</type>
         <ranking>15</ranking>
-        <special>The console had a ridiculous lineup of games, including several exclusives like Metal Gear, Uncharted, 
-        and Infamous. However, the lack of backwards compatibility frustrated many loyal gamers who had PS2s, but eventually, 
-        most people got over it.</special>
+        <special>OMG... Another PlayStation. Sony gave you the privilege of re-buying all your PS2 and PS3 games on the "new" PS4, yay!
+         Additionally, many excellent games received remakes, with Shadow of the Colossus and God of War notable examples. Red Dead Redemption
+          was the real reason to own one, in my opinion.</special>
      </console>
-    <console id="Wii">
+     <console id="Wii">
         <consolename>Nintendo Wii</consolename>
         <manu>Nintendo</manu>
         <year>2006</year>
@@ -157,7 +158,9 @@
         <ranking>16</ranking>
         <special>The system prioritized a simple user interface over high-definition and surround sound. The biggest change 
         was not just in the games, but in how we played them. The aim was to create something easy for anyone to use, with a 
-        new input method; the hope was to reach a broader audience and bring more people into gaming.</special>
+        new input method; the hope was to reach a broader audience and bring more people into gaming. There were record televison
+         sales after its release due to adults and children alike throwing their WiiMote into their televison screens by accident. 
+         Use that wrist strap.</special>
      </console>
     <console id="GB3DS">
         <consolename>GameBoy 3DS</consolename>
@@ -166,7 +169,7 @@
         <type>Cartridge/SD Cards/Digial Downloads</type>
         <ranking>17</ranking>
         <special>It was a foldable hand-held gaming system that was simply fun. While it didn't boast high-end graphics or 
-        hardware, it provided an interactive gaming experience with two screens and a stylus.</special>
+        hardware, it provided an interactive gaming experience with two screens and a stylus. Soo many hours lost at work with this bad boy.</special>
      </console>
     <console id="SDC">
         <consolename>Sega Dreamcast</consolename>
@@ -175,8 +178,9 @@
         <type>CD/GD-ROM/Digital Download</type>
         <ranking>18</ranking>
         <special>The SEGA Dreamcast was the first console in the sixth generation of video game 
-        systems, which included the PlayStation 2, GameCube, and Xbox. It launched in 1998, over two years before 
-        the PS2 and three years before the GameCube and Xbox. 3 years and it was a dead console.. a shame.</special>
+        systems, which included the PlayStation 2, GameCube, and Xbox. It used a GD-ROM... not CD or DVD, GD. A CD can hold 700mb and a DVD can hold 4.7gb, 
+        but GD... it held 1.2gb. Weird. It launched in 1998, over two years before the PS2 and three years before the GameCube and Xbox. Three years later and it was 
+        a dead console.. its a GD-ROM shame.</special>
      </console>
      <console id="NeoGeo">
         <consolename>NeoGeo</consolename>
@@ -188,14 +192,13 @@
          NES in the late 1980s. In 1990, the company decided to use its arcade skills to create games for home use. 
          King of Fighters and Metal Slug 3 are some of their best games.</special>
      </console>
-    <console id="A2600">
-        <consolename>Atari 2600</consolename>
-        <manu>Atari Inc.</manu>
-        <year>1977</year>
-        <type>Cartridge</type>
+     <console id="GC">
+        <consolename>Nintento GameCube</consolename>
+        <manu>Nintendo</manu>
+        <year>2001</year>
+        <type>MiniDVD</type>
         <ranking>20</ranking>
-        <special>This is the console that served as the foundation for the video 
-        industry. Atari 2600 was undeniably a phenomenon during its rise, heralding the advent of 
-        a new entertainment medium.</special>
+        <special>Its a Cube. It played little DVDs. It had the worst controller ever made. Is it special? Yes. A wooden knife is special too, but it can't 
+        cut a damn thing. Special is not always good. Epic fail in my book. At least it had a handle... like you were going to take it anywhere, lol.</special>
      </console>
 </consoles>

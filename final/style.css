@@ -59,6 +59,9 @@
       background-color: rgb(149, 168, 157);
        color: rgb(0, 0, 0);
     }
+    body.xmlpage {
+      background-image: url('https://jasonrixham.github.io/CSIT121/final/images/wp8.jpg');
+    }
     section {
       max-width: 800px;
       margin: 1.5rem auto;
@@ -196,6 +199,7 @@
     ul {
       color: #000000;
       font-weight: bold;
+      font-size: 22px;
     }
     table {
       border-collapse: collapse;

@@ -28,7 +28,7 @@
   </div>
 
   <section id="about">
-    <h1>Insperation - Hitchhikers Guide To The Galaxy</h1>
+    <h1>Inspiration - Hitchhikers Guide To The Galaxy</h1>
   <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGEwbDJ6dW9ydW9qdHA3dmk1NzU0NWxxbDNhbGV5cmhmeHVycDh2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cOiKbCtrbXqVi/giphy.gif" alt="Displayed Image" style="display: block; margin: 0 auto;">
   <h1 style="margin-left: 20px;">Sources</h1>
   <nav class="about">
@@ -45,7 +45,7 @@
     <h1>About Me</h1>
     <h4>
     </h4>
-    <h4>Things I Hate</h4>
+    <h2>Things I Hate</h2>
     <ul>
       <li>1. Lists</li>
       <li>2. Irony</li>
@@ -60,18 +60,17 @@
   </footer>
 
   <script>
-  // List of PNG files to use
-  const icons = ["images/cute.png", "images/happy.png", "images/napping.png", "images/savege.png", "images/pet.png", "images/cat.png"];
+   const icons = ["images/cute.png", "images/happy.png", "images/napping.png", "images/savege.png", "images/pet.png", "images/cat.png"];
 
   function openMenu() {
     document.getElementById("myOverlay").style.width = "100%";
-    changeIcon(); // change icon each time menu is opened
+    changeIcon(); 
   }
 
   function closeMenu() {
     document.getElementById("myOverlay").style.width = "0";
-    changeIcon(); // optionally also change when closing
-  }
+    changeIcon(); 
+    }
 
   function changeIcon() {
     const menuIcon = document.getElementById("menuIcon");
