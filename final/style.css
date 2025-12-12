@@ -5,7 +5,6 @@
       color: #333;
       line-height: 1.6;
     }
-    h2 { margin-top: 0; }
     header {
       color: #fff;
       padding: 1rem;
@@ -22,15 +21,19 @@
       font-size: 1.5rem;
       cursor: pointer;
     }
+    body.mainpage {
+      background-image: url('https://jasonrixham.github.io/CSIT121/final/images/wp7.jpg');
+    }
     .mainpage header {
        background-color: rgb(146, 144, 238);
        color: rgb(0, 0, 0);
+       font-weight: bold;
     }
     body.aboutpage {
       background-image: url('https://jasonrixham.github.io/CSIT121/final/images/wpa.png');
     }
     .mainpage footer {
-      background-color: aqua;
+      background-color: rgb(167, 153, 207);
       color: black;
     }
     .labpage header {
@@ -71,18 +74,16 @@
       color: #fff;
       margin-top: 2rem;
     }
-
-    /* Overlay menu styles */
     .overlay {
       height: 100%;
       width: 0;
       position: fixed;
       top: 0;
       left: 0;
-      background-color: rgba(0,0,0,0.9);
+      background-color: rgba(0, 0, 0, 0.5);
       overflow-x: hidden;
-      transition: 0.3s;
-      z-index: 999;
+      transition: 0.5s;
+      z-index: 9999;
     }
     .overlay-content {
       position: relative;
@@ -99,7 +100,7 @@
       transition: 0.2s;
     }
     .overlay a:hover {
-      background: rgba(255,255,255,0.1);
+      color: red;
     }
     .overlay .closebtn {
       position: absolute;
@@ -109,7 +110,6 @@
       color: #fff;
       cursor: pointer;
     }
-    /* Responsive tweaks */
     @media (max-width: 600px) {
       header {
       padding: 1rem;
@@ -137,44 +137,13 @@
       width: 64px;
       height: 64px;
     }
-    .overlay {
-      height: 100%;
-      width: 0;
-      position: fixed;
-      top: 0;
-      left: 0;
-      background-color: rgba(0,0,0,0.9);
-      overflow-x: hidden;
-      transition: 0.3s;
-      z-index: 999;
-    }
-    .overlay-content {
-      position: relative;
-      top: 25%;
-      width: 100%;
-      text-align: center;
-    }
-    .overlay a {
-      display: block;
-      padding: 1rem;
-      font-size: 1.5rem;
-      color: #fff;
-      text-decoration: none;
-    }
-    .overlay .closebtn {
-      position: absolute;
-      top: 1rem;
-      right: 2rem;
-      font-size: 2rem;
-      color: #fff;
-      cursor: pointer;
-    }
     .labsleft {
       display: grid;
-      grid-template-columns: 4.5fr 1fr; 
+      grid-template-columns: 8fr 1fr; 
       gap: 20px;
       align-items: start;
       background-color: rgb(120, 120, 128);
+      max-width: 1200px;
     }
     .labsright {
       display: grid;
@@ -182,6 +151,7 @@
       gap: 20px;
       align-items: start;
       background-color: rgb(153, 137, 137);
+      max-width: 1200px;
     }
     a img {
       width: 100px;   
@@ -192,7 +162,7 @@
       top: 0;
       left: 0;
       font-family: Arial, Helvetica, sans-serif;
-      font-size: 25px;
+      font-size: 26px;
      } 
     .about a {
       display: block;
@@ -204,7 +174,28 @@
       color: #ffffff;
     }
     #about {
-      background-color: rgb(151, 137, 155); 
+      background-color: rgba(170, 145, 182, 0.7);
+      color: black; 
+    }
+    #contact {
+      background-color: #bba9d1;
+      max-width: 1200px;
+      font-weight: bold;
+    }
+    #contact a {
+      display: block;
+      color: rgb(36, 0, 241);
+      padding: 2px;
+      text-decoration: none;
+      font-size: 26px;
+      width: 300px;
+    }
+    #contact a:hover {
+      color: #dd0000;
+     }
+    ul {
+      color: #000000;
+      font-weight: bold;
     }
     table {
       border-collapse: collapse;
@@ -243,4 +234,5 @@
     }
     .center {
       text-align: center;
+      padding-top: 20px;
     }

@@ -17,7 +17,6 @@
     <p>Please click the cat in the top left to start.</p>
   </header>
 
-  <!-- Overlay menu -->
   <div id="myOverlay" class="overlay">
     <span class="closebtn" onclick="closeMenu()">&times;</span>
     <div class="overlay-content">
@@ -26,43 +25,44 @@
       <a href="https://jasonrixham.github.io/CSIT121/final/about.html" onclick="closeMenu()">About</a>
     </div>
   </div>
+ <section id="contact">
+    <h2>Self Reflection</h2>
+    <p>This project, although it may sound a bit clichéd, is a compilation of everything I have learned in 
+      this class. I am continually amazed at how a structured program can inspire greater interest in a subject 
+      compared to self-directed learning. While challenges can often seem daunting and difficult, with curiosity, 
+      creativity, and a healthy fear of wasting time and money, what seems challenging can actually become enjoyable. 
+      I thoroughly enjoyed this class and plan to take a JavaScript course to complement my knowledge of HTML and CSS.</p>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I tend to be very sarcastic and strongly dislike authority. I find mundane and boring things unappealing. If that's 
-      the best life has to offer, why bother? I also have a strong aversion to anything fake or forced. So, what do I actually 
-      like? I enjoy seeing others be their best selves, rather than trying to be someone else. What brings happiness? If something 
-      comes easily to you, consider trying something else—because easy often means boring. It's the friction in life that makes 
-      you stronger, not comfort.
-    </p>
-    <p>Things I Hate</p>
-    <ul>
-      <li>1. Lists</li>
-      <li>2. Irony</li>
-      <li>3. Lists</li>
-      <li>3. Repetition</li>
-      <li>12. Inconsistency</li>
-      <li>6. Meme Theft</li>
-    </ul>
-  </section>
-  
+ </section>
+   
   <section id="contact">
-    <h2>Contact</h2>
+    <h2>Contact Information</h2>
+    <h3>
+      Jason Rixham
+    </h3>
     <p>
-      Contact Information
+      <a href="mailto:rixh48482@email.ccbcmd.edu" id="myLink">Email Me</a>
     </p>
-    <ul>
-      <li><a href="mailto:you@example.com">Email Me</a></li>
-    </ul>
   </section>
 
   <footer>
-    <p>&copy; 2025 Jason Rixham (Kind of a badass, not popular opinion)</p>
+    <p>&copy; 2025 Jason Rixham. Kind of a Badass. (Not Popular Opinion)</p>
   </footer>
+  
+<script>
+  const link = document.getElementById("myLink");
+
+  link.addEventListener("mouseover", () => {
+    link.textContent = "No Don't! I Hate Email...";
+  });
+
+  link.addEventListener("mouseout", () => {
+    link.textContent = "Just Kidding Email Me";
+  });
+</script>
 
   <script>
-  // List of PNG files to use
+  
   const icons = ["images/cute.png", "images/happy.png", "images/napping.png", "images/savege.png", "images/pet.png", "images/cat.png"];
 
   function openMenu() {
