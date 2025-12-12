@@ -202,7 +202,7 @@
       max-width: 1200px;
       font-weight: bold;
     }
-    #contact a {
+    #email a {
       display: block;
       color: rgb(0, 16, 241);
       padding: 2px;
@@ -210,7 +210,7 @@
       font-size: 26px;
       width: 300px;
     }
-    #contact a:hover {
+    #email a:hover {
       color: #dd0000;
      }
     ul {
